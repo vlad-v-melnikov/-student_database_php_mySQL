@@ -1,0 +1,12 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+th, td {
+	text-align: center;
+}
+
+li:not(:last-child) {
+    margin-bottom: 10px;
+}
